@@ -1,0 +1,1 @@
+docker-compose -f comnopose-infra.yml down
