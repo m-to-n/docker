@@ -13,6 +13,6 @@ Shutdown services:
 docker compose down
 ```
 
-**IMPORTANT**: setup $DB_FOLDER in **.env** if you are running on linux.
+**IMPORTANT**: setup env. var. **DB_FOLDER** in **.env** file if you are running on linux.
 
-Are you lazy windows bitch? Then use **up.bat** & **down.bat** script in scripts folder ;) **$DB_FOLDER** is configured in **up.bat**.
+Are you lazy windows bitch? Then use **up.bat** & **down.bat** script in scripts folder ;) **DB_FOLDER** is configured in **up.bat**.
