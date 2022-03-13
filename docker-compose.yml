@@ -7,9 +7,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - c:/data/db:/data/db
-    environment:
-        FOO: BAR
+      - ${DB_FOLDER}:/data/db
     networks:
       - developers
     deploy:
@@ -17,6 +15,3 @@ services:
 
 networks:
   developers:
-
-volumes:
-  db-data:
